@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://renaigvtl-dot.github.io/php/sitemap.xml
