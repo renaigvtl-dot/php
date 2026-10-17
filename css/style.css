@@ -20,3 +20,10 @@ h1{font-size:clamp(2.5rem,7vw,4.8rem);line-height:1.08;letter-spacing:-.05em;mar
 
 /* V6: consistent brand catalogue pages */
 .brand-page-heading{display:flex;align-items:center;gap:18px;margin:18px 0 32px}.brand-page-heading>img{width:64px;height:64px;object-fit:contain;padding:8px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:14px}.brand-page-heading h1{margin:0 0 8px}.brand-page-heading .intro{margin:0}.empty-catalog{margin-top:24px}.empty-catalog .notice p{margin-bottom:0}@media(max-width:480px){.brand-page-heading{align-items:flex-start;gap:12px}.brand-page-heading>img{width:52px;height:52px}}
+
+/* RENAI STORE OPTIMA: responsive product cards */
+.product-listing-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin:24px 0}
+.product-listing-card{display:flex;flex-direction:column;gap:12px;padding:16px;border:1px solid var(--line);border-radius:18px;background:var(--panel);color:var(--text);min-width:0}
+.product-listing-card:hover{border-color:var(--accent);text-decoration:none;transform:translateY(-2px)}
+.product-listing-card img{display:block;width:100%;height:230px;object-fit:contain;border-radius:12px;background:#080d18}
+.product-listing-card h3{margin:0;font-size:1.15rem}.product-listing-card p{margin:0}.product-listing-price{font-weight:850;color:var(--accent);font-size:1.2rem}.product-listing-meta{display:flex;flex-wrap:wrap;gap:6px}.product-listing-meta span{font-size:11px;border:1px solid var(--line);border-radius:999px;padding:4px 8px;color:var(--muted)}
