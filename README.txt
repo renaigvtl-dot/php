@@ -36,14 +36,14 @@ STRUKTUR KATALOG V6
 - Merek lain menampilkan keadaan kosong sampai produk masing-masing didaftarkan.
 
 LOGO RESMI RENAI STORE OPTIMA
-Logo utama resmi tersimpan di assets/images/renai-store-optima-logo.svg dan digunakan pada header seluruh halaman situs, menggantikan placeholder huruf R.
+Logo utama resmi tersimpan di assets/images/renai-store-optima-logo.png dan digunakan pada header seluruh halaman situs, menggantikan placeholder huruf R.
 
 
 PRODUK TAMBAHAN - RENAI STORE OPTIMA
 - vivo Y11d: halaman produk produk/Vivo/Y11d.html. Dua foto yang diberikan disimpan di assets/images/Vivo/Y11d/.
 - itel A100C: halaman produk produk/itel/A100C.html, harga Rp1.200.000. Path foto sudah dibuat tetapi file foto itel sengaja tidak disertakan agar bisa ditambahkan manual.
 - Katalog merek vivo dan itel serta bagian Produk Pilihan di beranda sudah diperbarui.
-- Logo toko telah diperbarui menjadi assets/images/renai-store-optima-logo.svg.
+- Logo toko telah diperbarui menjadi assets/images/renai-store-optima-logo.png.
 - Harga vivo Y11d: Rp1.950.000.
 
 
