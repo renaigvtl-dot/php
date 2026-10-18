@@ -53,3 +53,20 @@ KOMITMEN TRANSPARANSI — PEMBARUAN
 - Sebelum transaksi, konfirmasikan harga akhir, kondisi, kelengkapan, biaya tambahan jika ada, pembayaran, dan pengiriman.
 - URL canonical, Open Graph, sitemap, dan robots.txt menggunakan https://renaigvtl-dot.github.io/php/.
 - Setelah situs aktif di HTTPS, daftarkan properti situs dan kirim sitemap.xml melalui Google Search Console untuk meminta pengindeksan. Pengindeksan tidak dapat dijamin seketika.
+
+
+PWA / APLIKASI LAYAR BERANDA
+- manifest.webmanifest dan sw.js ditambahkan untuk dukungan instalasi PWA.
+- Ikon aplikasi 192x192 dan 512x512 dibuat dari logo utama assets/images/renai-store-optima-logo.png, bukan favicon.
+- Tombol Pasang aplikasi muncul di halaman situs. Browser yang mendukung akan menampilkan dialog instalasi; browser lain diarahkan ke menu Tambahkan ke layar utama.
+- Pemasangan membutuhkan HTTPS untuk service worker; pada GitHub Pages gunakan URL resmi https://renaigvtl-dot.github.io/php/.
+- Untuk menguji, unggah seluruh isi folder ke jalur GitHub Pages /php/, lalu buka situs di Chrome Android dan gunakan tombol Pasang aplikasi atau menu browser.
+
+PRODUK VIVO Y33S
+- Halaman detail: produk/Vivo/Y33s.html.
+- Harga Rp1.100.000; kondisi 99% siap pakai, tanpa minus menurut keterangan penjual; full set; charger original; kabel original masih berfungsi tetapi hampir putus/terkelupas.
+- Lima foto di assets/images/Vivo/Y33s/ telah ditautkan ke galeri. Spesifikasi teknis sengaja belum diisi dan menunggu data dari pemilik.
+
+PENYELARASAN GAMBAR
+- Nama file kompatibilitas untuk gambar Infinix HOT 70 dan itel A100C ditambahkan agar semua referensi gambar yang dipakai halaman situs dapat ditemukan.
+- Kartu katalog menggunakan bingkai rasio konsisten dan object-fit: contain agar perangkat tidak terpotong.

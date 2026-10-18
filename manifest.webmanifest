@@ -1,0 +1,27 @@
+{
+  "id": "./index.html",
+  "name": "RENAI STORE OPTIMA",
+  "short_name": "RENAI STORE",
+  "description": "Katalog smartphone RENAI STORE OPTIMA.",
+  "lang": "id-ID",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0b1020",
+  "theme_color": "#101827",
+  "icons": [
+    {
+      "src": "./assets/pwa/renai-store-optima-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/pwa/renai-store-optima-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
